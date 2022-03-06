@@ -1,0 +1,85 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 0.5fr 4fr 2fr 0.5fr;
+}
+
+#header{
+
+
+display: grid;
+grid-template-columns: 0.5fr 2fr 0.5fr;
+
+}
+
+
+#main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#logo__cmv{
+    background-color: aqua;
+}
+
+
+nav{
+   
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: blueviolet;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+li{
+    display: inline-block;
+    width: 20%;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+
+#boton{
+    background-color: brown;
+}
+
+footer{
+    background-color: chartreuse;
+}
+
+
+
+#logo__cmv img{
+    width: 100px;
+    margin: 5px;
+}
+
+.banner{
+    height: auto;
+}
+
+.banner img{
+    background-color: rgb(122, 122, 121);
+    
+    height: 100%;
+    width: 100%;
+}
+
+.video_youtube{
+    padding: 5%;
+}
+ 
+.aside{
+    padding: 5%;
+}
